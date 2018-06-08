@@ -1,0 +1,37 @@
+﻿@model BookBlogMVC.Models.Book
+@{
+    ViewBag.Title = "Search Results";
+}
+<div id="book-home-jb">
+    <div class="overlay-blue-to-black">
+        <h1 class="display-3">Book Blog</h1>
+        <p class="lead">The place where you can browse and review books with others.</p>
+    </div>
+</div>
+<div class="container">
+    @if (ViewBag.ErrorMsg != null || ViewBag.ErrorMsg != "")
+    {
+        <p class="text-danger text-center lead">@ViewBag.ErrorMsg</p>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var book in ViewBag.BookList)
+            { 
+                <div class="col-sm-12 col-md-4">
+                    <div class="thumbnail">
+                        <img src="~/assets/blank-profile.png" alt="book image" style="width: 100%;"/>
+                        <div class="caption">
+                            <h4>@book.Title</h4>
+                            <p>@book.Description</p>
+                            @foreach (var author in book.Authors)
+                            { 
+                                <p>@author.FirstName @author.LastName</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

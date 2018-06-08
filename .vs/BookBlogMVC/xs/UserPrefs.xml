@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{E1CAB32C-DEB9-4FD2-872F-0D96DAA1C364}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookBlogMVC/Controllers/BookController.cs">
+    <Files>
+      <File FileName="BookBlogMVC/Data/BookBlogContext.cs" Line="20" Column="58" />
+      <File FileName="BookBlogMVC/Controllers/UserController.cs" Line="78" Column="31" />
+      <File FileName="BookBlogMVC/Models/Book.cs" Line="14" Column="1" />
+      <File FileName="BookBlogMVC/Controllers/BookController.cs" Line="92" Column="47" />
+      <File FileName="BookBlogMVC/Views/Book/Search.cshtml" Line="36" Column="6" />
+      <File FileName="BookBlogMVC/Views/User/Login.cshtml" Line="13" Column="50" />
+      <File FileName="BookBlogMVC/Views/Book/Add.cshtml" Line="4" Column="34" />
+      <File FileName="BookBlogMVC/Views/Book/Index.cshtml" Line="25" Column="143" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BookBlogMVC PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

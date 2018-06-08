@@ -1,0 +1,75 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+    background-color: #FFD23C;
+}
+main {
+    padding-bottom: 3em;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.form-group {
+    padding: 1em 0 !important;
+}
+hr {
+    border-top: 1px solid #777;
+}
+footer {
+    background-color: #222;
+    color: #FFF;
+    padding: 1.5em 1em;
+}
+.text-center {
+    text-align: center;
+}
+.validation-summary-errors{
+    list-style-type: none;
+}
+.validation-summary-errors li{
+    list-style: none;
+}
+.overlay-blue-to-black {
+    background-color: rgba(0,0,0,0.6);
+    background: linear-gradient(to bottom, rgba(0, 102, 255, 0.6), rgba(0,0,0,0.6)) !important;
+    color: #FFF !important;
+    height: inherit;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+#book-home-jb {
+    background-image: url("../assets/books-background.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30em;
+}
+#book-home-jb *{
+    vertical-align: middle;
+}
+#book-home-jb h1 {
+    font-size: 8em;
+}
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}

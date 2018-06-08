@@ -1,0 +1,11 @@
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/bin/Debug/netcoreapp2.0/BookBlogMVC.deps.json
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/bin/Debug/netcoreapp2.0/BookBlogMVC.runtimeconfig.json
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/bin/Debug/netcoreapp2.0/BookBlogMVC.runtimeconfig.dev.json
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/bin/Debug/netcoreapp2.0/BookBlogMVC.dll
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/bin/Debug/netcoreapp2.0/BookBlogMVC.pdb
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/obj/Debug/netcoreapp2.0/BookBlogMVC.csproj.CoreCompileInputs.cache
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/obj/Debug/netcoreapp2.0/BookBlogMVC.AssemblyInfoInputs.cache
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/obj/Debug/netcoreapp2.0/BookBlogMVC.AssemblyInfo.cs
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/obj/Debug/netcoreapp2.0/BookBlogMVC.dll
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/obj/Debug/netcoreapp2.0/BookBlogMVC.pdb
+/Users/anthonyrojas/Documents/Sites/BookBlogMVC/BookBlogMVC/obj/Debug/netcoreapp2.0/BookBlogMVC.csprojResolveAssemblyReference.cache

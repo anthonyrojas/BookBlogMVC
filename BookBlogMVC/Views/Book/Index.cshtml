@@ -1,0 +1,28 @@
+﻿@model BookBlogMVC.Models.Book
+@{
+    ViewBag.Title = "Books";
+}
+
+<div id="book-home-jb">
+    <div class="overlay-blue-to-black">
+        <h1 class="display-3">Book Blog</h1>
+        <p class="lead">The place where you can browse and review books with others.</p>
+    </div>
+</div>
+<div class="container">
+    <h3>Search Book</h3>
+    <p>Find a book by title contents.</p>
+    <form method="post" asp-controller="Book" asp-action="Search">
+        @Html.AntiForgeryToken()
+        <div class="input-group">
+            <input type="text" name="bookTitle" class="form-control" placeholder="Search by title contents..." />
+            <span class="input-group-btn"><button class="btn btn-primary" type="submit">Search</button></span>
+        </div>
+    </form>
+    <br/>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="lead">Can't find the book you're looking for? @Html.ActionLink("Add It", "Add", "Book", null, new { @class="btn btn-info" })</p>
+        </div>
+    </div>
+</div>
